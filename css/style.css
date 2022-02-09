@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: black!important;
+}
+.new{
+    background: antiquewhite;
+    background: -webkit-linear-gradient(to bottom, antiquewhite, #ffffff);
+    background: linear-gradient(to bottom, antiquewhite, #ffffff);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(26, 248, 92)!important;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{    
+    color: black;
+}
+.kereso{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(26, 248, 92);
+}
+.gomb0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(26, 248, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(../img/hatter2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    position: relative;
+
+}
+@media(min-width:768px){
+    .main .center{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-100%, -50%);
+        transform: translate(-100%, -50%);
+    }
+}
+
+.main h1{
+    color:blanchedalmond;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'robot';
+}
+.shop h1{
+    font-size: 4rem;
+    font-weight: 800;
+    
+}
+.gomb1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(26, 248, 92);
+    border-radius: 60px;
+    font-weight: 700;
+}
+.gomb1:hover{
+    background-color: rgb(18, 160, 61);
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+h2{
+    color: rgb(18, 160, 61)!important;
+}
+h6{
+    font-family: 'Rubik', sans-serif; 
+    font-weight: bold;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+video {
+    max-width: 100%;
+    height: auto;
+}
+.shop{
+    background: antiquewhite;
+    background: -webkit-linear-gradient(to bottom, #ffffff, antiquewhite);
+    background: linear-gradient(to bottom, #ffffff, antiquewhite);
+}
